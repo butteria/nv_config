@@ -12,7 +12,18 @@ return {
       require "configs.lspconfig"
     end,
   },
-
+  -- {
+  --   "3rd/image.nvim",
+  -- },
+  -- Awesome jupyter notebook in neovim
+  -- {
+  --   "benlubas/molten-nvim",
+  --   config = function()
+  --     vim.cmd('runtime! plugin/rplugin.vim')
+  --     vim.g.python3_host_prog=vim.fn.expand("$HOME/.virtualenvs/neovim/bin/python3")
+  --   end,
+  --   lazy = false,
+  -- },
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
